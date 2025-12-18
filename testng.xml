@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<parameter name="param" value="value"/>
+
+<!--
+<groups>
+	<run>
+		<include name="Smoke"/>
+	</run>
+</groups>
+-->
+
+  <test thread-count="5" name="TestClass1">
+    <classes>
+      <class name="KairavAcademy.SeleniumJava.TestClass1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestClass2">
+  	<classes>
+  		<class name="KairavAcademy.SeleniumJava.TestClass2">
+  			<methods>
+  				<include name="test.*"/>
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->

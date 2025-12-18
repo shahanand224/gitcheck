@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-13T22:38:27 IST" name="Suite" finished-at="2025-12-13T22:38:27 IST" duration-ms="584">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestClass1.testCase2()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" name="testCase2" class="KairavAcademy.SeleniumJava.TestClass1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-12-13T22:38:27 IST" name="TestClass1" finished-at="2025-12-13T22:38:27 IST" duration-ms="522">
+      <class name="KairavAcademy.SeleniumJava.TestClass1">
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="extentReport" finished-at="2025-12-13T22:38:27 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method signature="testCase2()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="testCase2" finished-at="2025-12-13T22:38:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testcase1(java.lang.String)[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="testcase1" finished-at="2025-12-13T22:38:27 IST" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="extentReport" finished-at="2025-12-13T22:38:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="extentReport" finished-at="2025-12-13T22:38:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method signature="testcase3(java.util.HashMap)[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="testcase3" data-provider="dataMaster" finished-at="2025-12-13T22:38:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Param2=Set1Val2, Param1=Set1Val1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="extentReport" finished-at="2025-12-13T22:38:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method signature="testcase3(java.util.HashMap)[pri:0, instance:KairavAcademy.SeleniumJava.TestClass1@6aeb35e6]" started-at="2025-12-13T22:38:27 IST" name="testcase3" data-provider="dataMaster" finished-at="2025-12-13T22:38:27 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Param2=Set2Val2, Param1=Set2Val1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- KairavAcademy.SeleniumJava.TestClass1 -->
+    </test> <!-- TestClass1 -->
+    <test started-at="2025-12-13T22:38:27 IST" name="TestClass2" finished-at="2025-12-13T22:38:27 IST" duration-ms="17">
+      <class name="KairavAcademy.SeleniumJava.TestClass2">
+        <test-method signature="testCase6()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass2@1a677343]" started-at="2025-12-13T22:38:27 IST" name="testCase6" finished-at="2025-12-13T22:38:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method signature="testCase5()[pri:0, instance:KairavAcademy.SeleniumJava.TestClass2@1a677343]" started-at="2025-12-13T22:38:27 IST" name="testCase5" finished-at="2025-12-13T22:38:27 IST" depends-on-methods="KairavAcademy.SeleniumJava.TestClass2.testCase6" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+      </class> <!-- KairavAcademy.SeleniumJava.TestClass2 -->
+    </test> <!-- TestClass2 -->
+  </suite> <!-- Suite -->
+</testng-results>
