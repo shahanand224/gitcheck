@@ -66,6 +66,10 @@ public class TestClass1 {
 		map1.put("Param1", "Set2Val1");
 		map1.put("Param2", "Set2Val2");
 		
-		return new Object[][] {{map},{map1}};
+		HashMap<String,String> map2 =  new HashMap<String,String>();
+		map2.put("Param1", "Set2Val1");
+		map2.put("Param2", "Set2Val2");
+		
+		return new Object[][] {{map},{map1},{map1}};
 	}
 }
